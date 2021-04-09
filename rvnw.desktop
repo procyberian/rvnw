@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=raven web
+Exec=webapp-container --app-id="rvnw.masscollabs" $@ www/index.html
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

@@ -1,0 +1,15 @@
+{
+    "name": "rvnw.masscollabs",
+    "description": "raven forensics web",
+    "architecture": "@CLICK_ARCH@",
+    "title": "raven web",
+    "hooks": {
+        "rvnw": {
+            "apparmor": "rvnw.apparmor",
+            "desktop":  "rvnw.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "procyberian <openness@masscollabs.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
